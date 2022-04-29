@@ -1,0 +1,56 @@
+body {
+  margin: 10px;
+  background-image: url("../../images/games/spaceShip/wall.jpeg");
+}
+
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.barra {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  height: 20px;
+  width: 700px;
+}
+#gameCanvas {
+  background: #000000;
+  border: #000 1px solid;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+.boton {
+  color: red;
+  font-size: 40px;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid blue;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boton:hover {
+  background-color: white;
+  color: #000000;
+}
+a {
+  color: red;
+  font-size: 40px;
+  background-color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  background-color: white;
+  color: #000000;
+  text-decoration: none;
+}
